@@ -155,7 +155,7 @@
 * **Endpoint:** `PATCH /api/tasks/{id}/complete`
 * **Description:** Updates the status of a task to "Completed".
 * **Screenshot:**
-![Mark Completed](question5-task-management-api/screenshots/PATCH_mark_completed.png)
+![Mark Completed](question5-task-management-api/screenshots/PATCH_mark_complete.png)
 
 #### 4. Delete Task
 * **Endpoint:** `DELETE /api/tasks/{id}`

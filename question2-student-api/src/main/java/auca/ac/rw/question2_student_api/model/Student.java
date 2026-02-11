@@ -8,7 +8,7 @@ public class Student {
     private String major;
     private Double gpa;
 
-    // Constructor
+  
     public Student(Long studentId, String firstName, String lastName, String email, String major, Double gpa) {
         this.studentId = studentId;
         this.firstName = firstName;
@@ -18,7 +18,7 @@ public class Student {
         this.gpa = gpa;
     }
 
-    // Getters and Setters
+    
     public Long getStudentId() {
         return studentId;
     }

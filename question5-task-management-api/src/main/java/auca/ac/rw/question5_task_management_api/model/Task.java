@@ -5,14 +5,14 @@ public class Task {
     private String title;
     private String description;
     private boolean completed;
-    private String priority; // "LOW", "MEDIUM", "HIGH"
-    private String dueDate;  // "YYYY-MM-DD"
+    private String priority; 
+    private String dueDate; 
 
-    // 1. Default Constructor
+   
     public Task() {
     }
 
-    // 2. Full Constructor
+   
     public Task(Long taskId, String title, String description, boolean completed, String priority, String dueDate) {
         this.taskId = taskId;
         this.title = title;
@@ -22,7 +22,7 @@ public class Task {
         this.dueDate = dueDate;
     }
 
-    // 3. Getters and Setters
+    
     public Long getTaskId() { return taskId; }
     public void setTaskId(Long taskId) { this.taskId = taskId; }
 

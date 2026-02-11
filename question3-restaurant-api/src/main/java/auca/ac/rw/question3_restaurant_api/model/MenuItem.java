@@ -5,14 +5,13 @@ public class MenuItem {
     private String name;
     private String description;
     private Double price;
-    private String category; // e.g., "Appetizer", "Main Course"
+    private String category; 
     private boolean available;
 
-    // Default Constructor (Required for Spring to handle data)
+    
     public MenuItem() {
     }
 
-    // Full Constructor (Used to create our sample data easily)
     public MenuItem(Long id, String name, String description, Double price, String category, boolean available) {
         this.id = id;
         this.name = name;
@@ -22,7 +21,6 @@ public class MenuItem {
         this.available = available;
     }
 
-    // --- Getters and Setters (Allow the app to read and update these values) ---
     
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }

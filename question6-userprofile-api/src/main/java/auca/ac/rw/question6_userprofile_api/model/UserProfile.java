@@ -10,11 +10,11 @@ public class UserProfile {
     private String bio;
     private boolean active;
 
-    // Default Constructor
+    
     public UserProfile() {
     }
 
-    // Full Constructor
+    
     public UserProfile(Long userId, String username, String email, String fullName, int age, String country, String bio, boolean active) {
         this.userId = userId;
         this.username = username;
@@ -26,7 +26,7 @@ public class UserProfile {
         this.active = active;
     }
 
-    // Getters and Setters
+    
     public Long getUserId() { return userId; }
     public void setUserId(Long userId) { this.userId = userId; }
 
