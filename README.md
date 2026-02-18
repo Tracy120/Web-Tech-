@@ -47,3 +47,10 @@ Removes a product from the system.
 
 ---
 
+## 5. PgAdmin
+
+Proof that products are stored in the database .
+
+![DELETE](screenshot/pgAdmin.png)
+
+---
